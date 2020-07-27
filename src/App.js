@@ -6,6 +6,7 @@ import About from "./pages/About"
 import  Navi  from "./pages/Nav"
 import  Portfolio   from "./pages/Portfolio"
 import './App.css';
+import Footer from "./components/Footer"
 
 const App = (prop) => (
   <Router>
@@ -13,9 +14,11 @@ const App = (prop) => (
 <Navi />
       <Route exact path="/" component={ About } />
       <Route exact path="/portfolio" component={ Portfolio } />
+      <Footer />
     </div>
   
   </Router>
+  
 );
 
 export default App;

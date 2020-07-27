@@ -30,10 +30,6 @@ export const Block = (props) =>
                 <div class="btn-group" role="group" aria-label="First group">
                     <button type="button" id='portBtn' class="btn btn-secondary"><Link to="/Portfolio">Portfolio</Link></button>
 
-                    <button type="button" id='perBtn' class="btn btn-secondary">Personal Links</button>
-
-                    <button type="button" id='contBtn' class="btn btn-secondary">Contact Me</button>
-
                 <button type="button" id='abtBtn' class="btn btn-secondary"><Link className="navbar-brand" to="/">
                     About Me
       </Link></button >
