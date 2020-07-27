@@ -6,7 +6,7 @@ import About from "./pages/About"
 import  Navi  from "./pages/Nav"
 import  Portfolio   from "./pages/Portfolio"
 import './App.css';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer/Footer"
 
 const App = (prop) => (
   <Router>

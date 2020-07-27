@@ -1,11 +1,12 @@
 import React from "react";
+import Tostada from "../../pages/Tostada";
 
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Pupster 2017</span>
-    </footer>
+    
+    <Tostada/>
+   
   );
 }
 
