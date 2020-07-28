@@ -6,7 +6,7 @@ const repos = [
 
         link: "https://filter-your-employees.herokuapp.com/",
 
-        desc:"This app allows you to filter and sort the a randomly created table of employees. Click the table's columns to see sort!",
+        desc: "This app allows you to filter and sort the a randomly created table of employees. Click the table's columns to see sort!",
 
         github: "https://github.com/ErikDono/SortYourEmployees"
 

@@ -4,11 +4,10 @@ import { Button, UncontrolledPopover, PopoverHeader, PopoverBody } from 'reactst
 const Popover = () => {
     return (
         <div>
-            
             <Button id="PopoverClick" type="button">
                 Contact Me
       </Button>
-            {' '}  
+            {' '}
             <UncontrolledPopover trigger="click" placement="bottom" target="PopoverClick">
                 <PopoverHeader>Info</PopoverHeader>
                 <PopoverBody>
