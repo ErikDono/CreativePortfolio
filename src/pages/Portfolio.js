@@ -20,11 +20,10 @@ export class Portfilio extends Component {
 
     render() {
         return (
-            <card>
+           
             <div>
              <NewCard />
             </div>
-            </card>
         );
     }
 

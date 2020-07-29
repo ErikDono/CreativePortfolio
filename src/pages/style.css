@@ -1,0 +1,19 @@
+#aboutCard {
+  width: 50rem;
+  margin-left: 15%;
+  margin-top: 5%;
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  text-align: center;
+  text-overflow: wrap;
+   
+    overflow-x: scroll;
+}
+
+#cardMod{
+margin-top: auto;
+overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}

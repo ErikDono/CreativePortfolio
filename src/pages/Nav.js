@@ -12,13 +12,6 @@ import { SocialButton } from "../components/popover/button";
 // import { BrowserRouter } from 'react-router-dom'
 
 export const Block = (props) => {
-  const buttons = [
-    {
-      link: "www.linkedin.com",
-      title: "linkedin",
-      image: "./assets/linkedin.png",
-    },
-  ];
   return (
     <div id="nav-bar" role="toolbar" aria-label="Toolbar with div groups">
       <div class="btn-group" role="group" aria-label="First group">
