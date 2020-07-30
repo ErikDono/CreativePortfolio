@@ -21,9 +21,9 @@ export class Portfilio extends Component {
     render() {
         return (
            
-            <div>
+          
              <NewCard />
-            </div>
+            
         );
     }
 

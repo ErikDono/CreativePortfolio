@@ -1,3 +1,11 @@
+
+import passPic from "../assets/passPic.png"
+import SortEmp from "../assets/SortEmp.png"
+import Fitness from "../assets/Fitness.png"
+import Burger from "../assets/Burger.png";
+import NoteTaker from "../assets/EmpTrack.gif";
+import WorkerProf from "../assets/WorkProf.gif";
+import Covid from "../assets/covid.png";
 const repos = [
   {
     name: "Filter your employees",
@@ -10,7 +18,7 @@ const repos = [
     github: "https://github.com/ErikDono/SortYourEmployees",
 
     image:
-      "https://i.kym-cdn.com/entries/icons/mobile/000/029/959/Screen_Shot_2019-06-05_at_1.26.32_PM.jpg",
+      SortEmp,
   },
 
   {
@@ -24,7 +32,7 @@ const repos = [
     github: "https://github.com/BrianLevin/Personal-Trainer-Portal",
 
     image:
-      "https://www.dumpaday.com/wp-content/uploads/2019/08/the-random-pics-495.jpg",
+      Fitness,
   },
 
   {
@@ -38,7 +46,7 @@ const repos = [
     github: "https://github.com/ErikDono/SortYourEmployees",
 
     image:
-      "https://www.dumpaday.com/wp-content/uploads/2019/08/the-random-pics-495.jpg",
+      Burger,
   },
   {
     name: "Quick Note Taker",
@@ -51,7 +59,7 @@ const repos = [
     github: "https://github.com/ErikDono/NoteTaker",
 
     image:
-      "https://www.dumpaday.com/wp-content/uploads/2019/08/the-random-pics-495.jpg",
+      NoteTaker,
   },
   {
     name: "Team Member Profile Creator",
@@ -64,7 +72,7 @@ const repos = [
     github: "https://github.com/ErikDono/WorkerProfileGenerator",
 
     image:
-      "https://www.dumpaday.com/wp-content/uploads/2019/08/the-random-pics-495.jpg",
+      WorkerProf,
   },
   {
     name: "Cooking and Reading during Covid",
@@ -77,7 +85,7 @@ const repos = [
     github: "https://github.com/jbenj-upenn/CovidActivities",
 
     image:
-      "https://www.dumpaday.com/wp-content/uploads/2019/08/the-random-pics-495.jpg",
+      Covid,
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import card from "react-bootstrap"
-import { Card, Button, CardTitle, CardText, Row, Col, ButtonGroup, Media } from 'reactstrap';
+import { Card, Jumbotron, Button, CardTitle, CardText, Row, Col, ButtonGroup, Media } from 'reactstrap';
 import "./style.css";
 import repos from "../../utils/seed"
 
@@ -36,8 +36,6 @@ const NewCard = () => {
                   <div class="overlay">
                     <Card body>
                       <CardTitle>{repos.name}</CardTitle>
-                      <br></br>
-                      <br></br>
                       <div>
                         <CardText>{repos.desc}</CardText>
                         <ButtonGroup vertical>

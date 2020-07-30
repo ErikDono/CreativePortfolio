@@ -7,13 +7,18 @@
   max-height: 80%;
   text-align: center;
   text-overflow: wrap;
-   
-    overflow-x: scroll;
+
+  overflow-x: scroll;
+}
+.navMod {
+  text-align: "center";
+  padding: "2px";
+  font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
 }
 
-#cardMod{
-margin-top: auto;
-overflow-wrap: break-word;
+#cardMod {
+  margin-top: auto;
+  overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
 }
