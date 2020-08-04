@@ -4,10 +4,9 @@ import { Button, UncontrolledPopover, PopoverHeader, PopoverBody } from 'reactst
 const Popover = () => {
     return (
         <div>
-            <Button id="PopoverClick" type="button">
+            <Button id="PopoverClick" type="button" style={{backgroundColor:"transparent", borderColor:"transparent", color: "blue"}}>
                 Contact Me
       </Button>
-            {' '}
             <UncontrolledPopover trigger="click" placement="bottom" target="PopoverClick">
                 <PopoverHeader>Info</PopoverHeader>
                 <PopoverBody>

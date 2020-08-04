@@ -41,7 +41,7 @@ function About() {
               </div>
             </CardBody>
 
-            <Media src={Pic}></Media>
+            <Media id="pic" src={Pic}></Media>
           </Card>
         </div>
       </div>

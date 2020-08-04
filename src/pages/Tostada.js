@@ -11,7 +11,7 @@ import Popover from "../components/popover/Popover"
 // import { BrowserRouter } from 'react-router-dom'
 
 const Tostada = ({ children }) => {
-    const [show, toggleShow] = useState(true);
+    const [show, toggleShow] = useState(false);
 
     return (
         <div style={{ marginLeft:"28%", marginTop:"20px"}}>

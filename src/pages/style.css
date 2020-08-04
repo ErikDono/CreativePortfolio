@@ -1,6 +1,6 @@
 #aboutCard {
   width: 50rem;
-  margin-left: 15%;
+  margin-left:20%;
   margin-top: 5%;
   position: relative;
   max-width: 80%;
@@ -11,14 +11,37 @@
   overflow-x: scroll;
 }
 .navMod {
+  
   text-align: "center";
-  padding: "2px";
+  padding: "3px";
   font-family: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif";
+  background-color: transparent;
+  
+  
+}
+#nav-bar{
+margin-left: 7%;;
+
+}
+.navText{
+
+  color: blue;
 }
 
 #cardMod {
-  margin-top: auto;
+  margin-top: 10%;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+}
+
+#pic{
+   width: 30%;
+  height: fit-content;
+  margin-left: 33%;
+  margin-bottom: 10%;
+}
+
+.socialButton{
+  margin-left: 10px;
 }

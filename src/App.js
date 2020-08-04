@@ -11,7 +11,7 @@ import Farm from "./assets/farm.jpg"
 const App = (prop) => (
   
   <Router>
-    <div styles={{ backgroundImage:'url(${Farm})'}}>
+    <div class= "main">
       <Navi />
       <Route exact path="/" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />

@@ -1,14 +1,18 @@
 import React from 'react';
 import card from "react-bootstrap"
-import { Card, Jumbotron, Button, CardTitle, CardText, Row, Col, ButtonGroup, Media } from 'reactstrap';
+import { Card,  Carousel,
+  CarouselItem,
+  CarouselControl,
+  CarouselIndicators,
+  CarouselCaption, Button, CardTitle, CardText, Row, Col, ButtonGroup, Media } from 'reactstrap';
 import "./style.css";
 import repos from "../../utils/seed"
 
 
 
-const NewCard = () => {
+const PrjCard = () => {
     return (
-      <div class="card">
+      <div >
         {/*
         WAS USING THIS TO EDIT THE BELOW< AS IT WORKS AS INTENDED <div class="container">
           <Media class="image" src={passPic}></Media>
@@ -27,8 +31,8 @@ const NewCard = () => {
             <Col
               md="6"
               col
-              sm="1"
-              style={{ marginLeft: "25%", marginBottom: "20%" }}
+              sm="2"
+              style={{marginBottom: "10%" }}
             >
               <div class="container">
                 <Media class="image" src={repos.image}></Media>
@@ -38,7 +42,7 @@ const NewCard = () => {
                       <CardTitle>{repos.name}</CardTitle>
                       <div>
                         <CardText>{repos.desc}</CardText>
-                        <ButtonGroup vertical>
+                        <ButtonGroup vertical style={{marginLeft:"30%"}}>
                           <Button href={repos.link}>Click to Visit App</Button>
                           <Button href={repos.github}>
                             Click to Visit the GitHub{" "}
@@ -56,4 +60,4 @@ const NewCard = () => {
     );
 };
 
-export default NewCard;
+export default PrjCard;

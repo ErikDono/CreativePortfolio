@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import PDFViewer from "../components/PDFViewer/PDFViewer";
-import PDFJSBackend from "../backends/pdfjs"
-import resDoc from "../assets/resumeDoc.pdf"
+import Resume from "../components/PDFViewer/PDFViewer"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <PDFViewer backend={PDFJSBackend} src={resDoc}/>
+        <Resume />
       </div>
     );
   }

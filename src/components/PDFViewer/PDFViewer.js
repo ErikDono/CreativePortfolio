@@ -1,26 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import { Document, Page } from "react-pdf";
+import resume from "../../assets/resumeDoc.pdf"
 
-export default class PDFViewer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.viewerRef = React.createRef();
-    this.backend = new props.backend();
+function Resume() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
   }
 
-  componentDidMount() {
-    const { src } = this.props;
-    const element = this.viewerRef.current;
-
-    this.backend.init(src, element);
-  }
-
-  render() {
-    return (
-      <div
-        ref={this.viewerRef}
-        id="viewer"
-        style={{ width: "100%", height: "100%" }}
-      ></div>
-    );
-  }
+  return (
+    <div>
+      <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>
+        Page {pageNumber} of {numPages}
+      </p>
+    </div>
+  );
 }
+export default Resume

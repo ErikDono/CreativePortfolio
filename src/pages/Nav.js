@@ -6,7 +6,7 @@ import GitHub from "../assets/gitImg.png";
 import Facebook from "../assets/fbImg.png";
 import docImg from "../assets/docImg.png";
 
-import { SocialButton } from "../components/popover/button";
+
 // import { BrowserRouter } from 'react-router-dom'
 
 export const Block = (props) => {
@@ -14,11 +14,11 @@ export const Block = (props) => {
     <div id="nav-bar" role="toolbar" aria-label="Toolbar with div groups">
       <div class="btn-group" role="group" aria-label="First group">
         <div className="navMod">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolio" className="navbar-brand navText">Portfolio</Link>
         </div>
 
         <div className="navMod" >
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand navText" to="/">
             About Me
           </Link>
         </div>
