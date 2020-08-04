@@ -13,7 +13,7 @@ const App = (prop) => (
   <Router>
     <div class= "main">
       <Navi />
-      <Route exact path="/" component={About} />
+      <Route exact path="/CreativePortfolio" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/resume" component={Resume} />
       <Footer />
