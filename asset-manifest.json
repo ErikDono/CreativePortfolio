@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/CreativePortfolio/static/css/main.f27e6f38.chunk.css",
+    "main.js": "/CreativePortfolio/static/js/main.8c804d79.chunk.js",
+    "main.js.map": "/CreativePortfolio/static/js/main.8c804d79.chunk.js.map",
+    "runtime-main.js": "/CreativePortfolio/static/js/runtime-main.7d765ee2.js",
+    "runtime-main.js.map": "/CreativePortfolio/static/js/runtime-main.7d765ee2.js.map",
+    "static/js/2.66803505.chunk.js": "/CreativePortfolio/static/js/2.66803505.chunk.js",
+    "static/js/2.66803505.chunk.js.map": "/CreativePortfolio/static/js/2.66803505.chunk.js.map",
+    "index.html": "/CreativePortfolio/index.html",
+    "precache-manifest.c927f9e4d18f1d816121c8e2fc03884b.js": "/CreativePortfolio/precache-manifest.c927f9e4d18f1d816121c8e2fc03884b.js",
+    "service-worker.js": "/CreativePortfolio/service-worker.js",
+    "static/css/main.f27e6f38.chunk.css.map": "/CreativePortfolio/static/css/main.f27e6f38.chunk.css.map",
+    "static/js/2.66803505.chunk.js.LICENSE.txt": "/CreativePortfolio/static/js/2.66803505.chunk.js.LICENSE.txt",
+    "static/media/Burger.png": "/CreativePortfolio/static/media/Burger.2e7ebcc6.png",
+    "static/media/EandB.png": "/CreativePortfolio/static/media/EandB.4ab34315.png",
+    "static/media/EmpTrack.gif": "/CreativePortfolio/static/media/EmpTrack.cf2a21a4.gif",
+    "static/media/Fitness.png": "/CreativePortfolio/static/media/Fitness.9537697a.png",
+    "static/media/SortEmp.png": "/CreativePortfolio/static/media/SortEmp.dd132a24.png",
+    "static/media/WorkProf.gif": "/CreativePortfolio/static/media/WorkProf.cae55e5f.gif",
+    "static/media/covid.png": "/CreativePortfolio/static/media/covid.6e807578.png",
+    "static/media/docImg.png": "/CreativePortfolio/static/media/docImg.92509687.png",
+    "static/media/App.css": "/CreativePortfolio/static/media/farm.7ae8674a.jpg",
+    "static/media/fbImg.png": "/CreativePortfolio/static/media/fbImg.a7da6ac4.png",
+    "static/media/gitImg.png": "/CreativePortfolio/static/media/gitImg.427b8bc2.png",
+    "static/media/passPic.png": "/CreativePortfolio/static/media/passPic.1a814bbf.png",
+    "static/media/resumeDoc.pdf": "/CreativePortfolio/static/media/resumeDoc.599eb2f1.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d765ee2.js",
+    "static/js/2.66803505.chunk.js",
+    "static/css/main.f27e6f38.chunk.css",
+    "static/js/main.8c804d79.chunk.js"
+  ]
+}
